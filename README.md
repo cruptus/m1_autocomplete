@@ -17,7 +17,7 @@ Composer
 ## Installation
 
 ```bash
-$ git clone git@github:cruptus/autocomplete
+$ git clone git@github.com:cruptus/m1_autocomplete.git
 $ cd autocomplete
 $ composer install
 $ mysql -uroot
