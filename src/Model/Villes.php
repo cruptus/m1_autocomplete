@@ -14,7 +14,7 @@ class Villes extends Model
 
     public static function find ($query) {
         $query = strtoupper($query);
-        $req = self::bdd()->prepare('SELECT ville_nom FROM villes_france WHERE ville_nom LIKE "%'.$query.'%" LIMIT 10');
+        $req = self::bdd()->prepare('SELECT ville_nom FROM villes_france WHERE ville_nom LIKE "'.$query.'%" LIMIT 10');
         $req->execute();
         return $req->fetchAll();
     }
