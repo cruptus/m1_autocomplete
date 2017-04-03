@@ -17,13 +17,13 @@ Composer
 ## Installation
 
 ```bash
-$ git clone git@github.com:cruptus/m1_autocomplete.git
+$ git clone git@github.com:cruptus/m1_autocomplete.git autocomplete
 $ cd autocomplete
 $ composer install
 $ mysql -uroot
 mysql> CREATE DATABASE autocomplete
 mysql> exit
-$ mysql -uroot autocomplete < bdd.sql
+$ mysql -uroot autocomplete < autocomplete.sql
 ```
 
 ## Lancement 
